@@ -1,0 +1,488 @@
+/*media query*/
+
+@media (max-width: 1200px) {       
+    
+}
+
+@media (max-width: 992px) {
+    
+    h3 {
+        font-size: 3vw;        
+    }
+    
+    /*For nav*/
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 2.5vw;
+        padding-right: 3vw;
+        padding-top: 1vw;
+    }
+    .navbar-nav .dropdown-menu a {
+        padding-left: 1vw;
+        line-height: 3.9vw;
+        font-size: 2.5vw;
+    }
+    
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 26vw;        
+    }
+    
+    .form-inline .form-control {
+        width: 18vw;
+        height: 3.5vw;
+    }
+    
+    .iconNav {
+        right: 4vw;
+        font-size: 2.2vw;
+    }
+    nav h1 {
+        font-size: 3vw;
+    }    
+    
+    /*For section id="slider_block"*/
+    
+    .carousel-indicators li {        
+        width: 0.9vw;
+        height: 1vw;                
+    }
+    
+    /*For section id="whyChooseUs"*/
+    
+    .card {
+        margin: 1vw 1vw;
+        height: 28vw;
+    }
+    .title {
+        justify-content: center;        
+    }    
+    
+    .img-title {        
+        height: 8vw;
+    }
+    
+    p, .card-my p, .card-my h4 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }    
+    .icon-size {
+        font-size: 7vw;
+    } 
+    .p-sl p {
+        font-size: 2.2vw;
+        line-height: 3.5vw;
+    }
+    
+    /*For section id="products"*/
+    
+    .titleProduct {        
+        top: 1vw;
+    }
+    .products1, .products2, .products3 {
+        height: 60vw;
+    }
+    .productsTitle {
+        height: 67vw;
+    }
+    h5 {
+        font-size: 1.5vw;    
+    }
+    #products h4 {
+        font-size: 2.5vw;
+    }  
+    .text-my p {
+        font-size: 1.5vw;
+        line-height: 2.8vw;
+    }
+    .productsTitle img {
+        width: 50%;
+    }
+    #products .carousel-indicators li {
+        width: 0.9vw;
+        height: 1vw;          
+        top: 8vw;
+    }
+    .text-see a {        
+        font-size: 2vw; 
+    }
+    
+    /*For section id="aboutUs"*/
+    
+    .skillbar-title, .skill-bar-percent {
+        top: -3.5vw;
+        font-size: 2vw;
+    }
+    .imgPhone {
+        height: 100%;
+        width: 88%;
+    }
+    
+    /*For section id="contact"*/
+    
+    .form-text p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .form-my {
+        padding-top: 5%;
+        margin-top: 6.5%;
+        height: 27vw;
+        width: 71%;
+    }
+    .form-control {
+        width: auto;
+        height: 3vw;
+        padding: .7vw;
+        font-size: 2vw;        
+    }
+    form label {
+        font-size: 1.5vw;
+        padding-left: 1.5vw;
+    }
+    .custom-control-label::after {
+        top: 0.3vw;
+        left: -1.1vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    .custom-control-label::before {
+        top: 0.3vw;
+        left: -1.1vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    textarea.form-control {
+        height: 10vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .footer-left p {
+        font-size: 2vw;        
+        margin-left: 1vw;
+        margin-top: 1vw;
+    }
+        
+}
+
+@media (max-width: 768px) {
+    
+    h3 {
+        font-size: 3vw;        
+    }
+    
+    /*    For nav*/
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 2.5vw;
+        padding-right: 3vw;
+        padding-top: 1vw;
+    }
+    .navbar-nav .dropdown-menu a {
+        padding-left: 1vw;
+        line-height: 3.9vw;
+        font-size: 2.5vw;
+    }
+    
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 26vw;        
+    }
+    
+    .form-inline .form-control {
+        width: 18vw;
+        height: 3.5vw;
+    }
+    
+    .iconNav {
+        right: 4vw;
+        font-size: 2.2vw;
+    }
+    nav h1 {
+        font-size: 3vw;
+    }
+    
+    /*For section id="slider_block"*/
+    
+    .carousel-indicators li {        
+        width: 0.9vw;
+        height: 1vw;               
+    }
+    
+    
+    /*For section id="whyChooseUs"*/
+    
+    .card {
+        margin: 1vw 1vw;
+        height: 30vw;
+    }
+    .title {
+        justify-content: center;        
+    }
+    .img-title {        
+        height: 7vw;
+    }
+    p, .card-my p, .card-my h4 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }    
+    .icon-size {
+        font-size: 7vw;        
+    } 
+    .p-sl p {
+        font-size: 2.2vw;
+        line-height: 3.5vw;
+    }
+    
+
+    /*For section id="products"*/
+    
+    .titleProduct {        
+        top: 1vw;
+    }
+    .products1, .products2, .products3 {
+        height: 60vw;
+    }
+    .productsTitle {
+        height: 67vw;
+    }
+    h5 {
+        font-size: 1.5vw;    
+    }
+    #products h4 {
+        font-size: 2.5vw;
+    }
+    .text-my p {
+        font-size: 1.5vw;
+        line-height: 2.8vw;
+    }
+    .productsTitle img {
+        width: 50%;
+    }
+    #products .carousel-indicators li {
+        width: 0.9vw;
+        height: 1vw;         
+        top: 8vw;
+    }
+    .text-see a {        
+        font-size: 2vw; 
+    }
+        
+    /*For section id="aboutUs"*/
+    
+    .skillbar-title, .skill-bar-percent {
+        top: -3.5vw;
+        font-size: 2vw;
+    }
+    .imgPhone {
+        height: 100%;
+        width: 88%;
+    }
+    
+    /*For section id="contact"*/
+    
+    .form-text p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .form-my {
+        padding-top: 5%;
+        margin-top: 6.5%;
+        height: 27vw;
+        width: 71%;
+    }
+    .form-control {
+        width: auto;
+        height: 3vw;
+        padding: .7vw;
+        font-size: 2vw;        
+    }
+    form label {
+        font-size: 1.5vw;
+        padding-left: 1.5vw;
+    }
+    .custom-control-label::after {
+        top: 0.3vw;
+        left: -1.8vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    .custom-control-label::before {
+        top: 0.3vw;
+        left: -1.8vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    textarea.form-control {
+        height: 10vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .footer-left p {
+        font-size: 2vw;        
+        margin-left: 1vw;
+        margin-top: 1vw;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    
+    h3 {
+        font-size: 2vw;        
+    }
+    
+    /*    For nav*/
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 2.5vw;
+        padding-right: 3vw;
+        padding-top: 1vw;
+    }    
+    .navbar-nav .dropdown-menu a {
+        padding-left: 1vw;
+        line-height: 3.9vw;
+        font-size: 2.5vw;
+    }    
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 27vw;        
+    }    
+    .form-inline .form-control {
+        width: 18vw;
+        height: 3.5vw;
+    }    
+    .iconNav {
+        right: 4vw;
+        font-size: 2.2vw;
+    }
+    nav h1 {
+        font-size: 3vw;
+    }
+    
+    /*For section id="slider_block"*/
+    
+    .carousel-indicators li {        
+        width: 0.9vw;
+        height: 1vw;                
+    }
+    
+    /*For section id="whyChooseUs"*/
+    
+    .card {
+        margin: 1vw 5vw;
+        height: 30vw;        
+    }
+    .title {
+        justify-content: center;        
+    }
+    
+    .card-my {
+        padding: 1vw 4vw 0 4vw;
+    }
+    
+    p, .card-my p, .card-my h4 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }    
+    .icon-size {
+    font-size: 10vw;
+    }    
+    .img-title {    
+    height: 12vw;
+    }    
+    .p-sl p {
+        font-size: 2.2vw;
+        line-height: 3.5vw;
+    }
+    nav h1 {
+        font-size: 3vw;
+    }
+    
+    
+    /*For section id="products"*/
+    
+    .titleProduct {        
+        top: 1vw;
+    }
+    .products1, .products2, .products3 {
+        height: 178vw;
+    }
+    .productsTitle {
+        height: 185vw;
+    }
+    h5 {
+        font-size: 3vw;
+    }
+    #products h4 {
+        font-size: 3.5vw;
+    }
+    .text-my p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    .productsTitle img {
+        width: 40%;
+    }
+    #products .carousel-indicators li {        
+        width: 0.9vw;
+        height: 1vw;               
+        top: 10vw;
+    }
+    .text-see a {        
+        font-size: 2vw; 
+    }
+        
+    /*For section id="aboutUs"*/
+    
+    .skillbar-title, .skill-bar-percent {
+        top: -3.5vw;
+        font-size: 2vw;
+    }
+    .imgPhone {
+        height: 100%;
+        width: 88%;
+    }
+    
+    /*For section id="contact"*/
+    
+    .form-text p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .form-my {
+        padding-top: 5%;
+        margin-top: 6.5%;
+        height: 27vw;
+        width: 71%;
+    }
+    .form-control {
+        width: auto;
+        height: 3vw;
+        padding: .7vw;
+        font-size: 2vw;        
+    }
+    form label {
+        font-size: 1.5vw;
+        padding-left: 1.5vw;
+    }
+    .custom-control-label::after {
+        top: 0.3vw;
+        left: -1.7vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    .custom-control-label::before {
+        top: 0.3vw;
+        left: -1.7vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    textarea.form-control {
+        height: 10vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .footer-left p {
+        font-size: 2vw;        
+        margin-left: 1vw;
+        margin-top: 1vw;
+    }
+}
